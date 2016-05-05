@@ -1,11 +1,11 @@
 Leisure
 ---------------
-We generally collect many videos and movies in our hard drive, and arrange them in some type of heirarchy. And unconciously, we have to remember the blueprint of the tree structure that we maintain. Why would we like to remember the file system tree structure? In similar direction, "Leisure" is a small prototype of a search interface built in Angular 1.x + firebase to illustrate the initial ideas of solutions for this problem.
+We generally collect many videos and movies in our hard drive, and arrange them in some type of folder heirarchy. However, we have to remember the blueprint of the tree structure that we maintain. Why would we like to remember the file system tree structure? One solution could be a searchable interface which can answer your queries. "Leisure" is a small prototype of a search interface built in Angular 1.x + firebase to illustrate the initial ideas of solutions for this problem. This is just a beginning!
 
 
 How to setup and Run
 ---------------------
-1. Leisure works with Node.js and Gulp. If you already don't have, then install nodejs and then install following packages globally:
+1. Leisure works with Node.js and Gulp. If you don't have it already, then install nodejs and then, install following packages globally:
 
         npm install -g bower gulp serve
 
