@@ -12,10 +12,10 @@ How to setup and Run
 2. Then, clone the repository.
 3. Inside the root folder `leisure` on a cmd, type:
 
-        npm install
+        npm install     
         bower install
         
-4. Once the installation is done, then run the gulp any of the following commands:
+4. Once the installation is done, then run any of the following gulp commands:
 
         gulp          // default task for development purpose.
         gulp serve    // creating a dist build and serve it.
