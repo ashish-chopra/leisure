@@ -1,0 +1,29 @@
+{
+  "name": "leisure",
+  "description": "Its a movie search engine user interface",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3",
+    "angular-ui-router": "^0.2.18"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./dist/js/bootstrap.js",
+        "./dist/css/bootstrap.css",
+        "./dist/fonts/*"
+      ]
+    }
+  }
+}

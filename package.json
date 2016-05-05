@@ -1,0 +1,21 @@
+{
+  "name": "leisure",
+  "version": "1.0.0",
+  "description": "Its a movie search user interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^3.2.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "main-bower-files": "^2.11.1"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html ng-app="Leisure">
+
+<head>
+    <title>Leisure - Chai time movies!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="vendor/jquery/dist/jquery.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    
+    <script src="scripts/app.js"></script>
+    <script src="scripts/services/searchService.js"></script>
+    <script src="scripts/controllers/searchBarController.js"></script>
+    <script src="scripts/controllers/resultsController.js"></script>
+   
+
+</head>
+
+<body>
+    <section class="cover-section">
+        <div class="background">
+            <div class="container">
+                <nav class="navbar navbar-inverse">
+                    <a class="navbar-brand" href="#"><h1>LEISURE</h1></a>
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a ui-sref="home">Home</a></li>
+                        <li><a ui-sref="search">Explore</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <div class="search-box-content" ng-controller="searchBarController as searchCtrl">
+                        <h1>Search your favorite movie titles here</h1>
+                        <form class="input-group">
+                            <input id="search-bar" ng-model="searchCtrl.keywords" type="text" placeholder="enter the keywords" class="form-control input-lg">
+                            <span class="input-group-btn">
+                                <button type="submit" id="search-button" class="btn btn-lg" ng-click="searchCtrl.search()">
+                                    Search
+                                </button>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-section" ui-view></section>
+    <footer>
+        <div class="container footer-section">
+            <div>&copy; copyright 2016, All Rights Reserved.</div>
+            <div>
+                <h4>FOLLOW US</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>About</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quidem reiciendis placeat doloremque optio, numquam delectus aliquid, sunt? Aspernatur eos nam sequi tenetur voluptatibus, quas ullam doloremque quibusdam, perspiciatis! Molestiae.</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

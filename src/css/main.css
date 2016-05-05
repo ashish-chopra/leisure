@@ -1,0 +1,97 @@
+/* this is main.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: Helvetica;
+    color:#444;
+}
+
+.cover-section {
+    height: 60vh;
+    background: url(../assets/images/cover-photo.jpg);
+    background-position: cover;
+    margin:0;
+    color: #fff;
+}
+
+.background {
+    height: 100%;
+    background: rgba(44,62,80,0.70);
+}
+
+/* bootstrap overrides */
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.search-box {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.search-box h1 {
+    padding: 20px 0;
+}
+.search-box-content {
+    width: 80%;
+}
+#search-bar {
+    height: 4rem;
+}
+#search-button {
+    height: 4rem;
+    background: #1abc9c;
+    color: white;
+}
+
+.content-section {
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #222;
+    color: #eee;
+    font-size: 13px;
+
+    padding: 25px 0;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.footer-section div {
+    width: 30%;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h4 {
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#1abc9c;
+}
+
